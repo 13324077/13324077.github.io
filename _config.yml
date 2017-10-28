@@ -1,0 +1,27 @@
+# Site settings
+name: To Be or Not to Be
+email: wuxiaoer@gmail.com
+author: Wxer
+url: http://wxer.github.io
+resume_site: http://wxer.github.io/Resume.pdf
+github: https://wxer.github.io
+#baseurl: "/LessOrMore"
+baseurl: 
+description: Actually, less is more!
+meta_description: 个人博客
+motto: Do Your Best
+banner: 天行健，君子以自强不息
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: wxer
+
+# Build settings
+markdown: kramdown
+
+baidu_analysis: 6c5a183ded654cc391681ec26a377b36
+
