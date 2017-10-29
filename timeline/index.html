@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>时光轴 - 时光匆匆，稍纵即逝</title>
+    <meta http-equiv="content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="./css/screen.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="./css/responsive.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="./inc/colorbox.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="./css/default.css" type="text/css">
+</head>
+
+<body>
+<audio src="./audio/The_Truth_That_You_Leave.mp3" autoplay></audio>
+
+<div class="container">
+<a href="/"><div class="avatar"></div></a>
+<h1>时光匆匆，稍纵即逝</h1>
+<h2 id="subtitle">成长的轨迹：2005-至今</h2>
+
+<div id="timelineContainer">
+
+<div class="timelineToggle"><p><a class="expandAll">+ 全部展开</a></p></div>
+
+<br class="clear">
+
+<div class="timelineMajor">
+    <h2 class="timelineMajorMarker"><span>2014</span></h2>
+    <!-- /.timelineMinor -->
+    <dl class="timelineMinor">
+        <dt id="20140120"><a>职业生涯第一次跳槽</a></dt>
+        <dd class="timelineEvent" id="20140120EX" style="display:none;">
+            <h3>2014.01.20-至今</h3>
+            <div class="media">
+                <!--<img src="http://i300.photobucket.com/albums/nn17/willard-yuan/timeline/IMG_7095_zpsw88wpdzc.jpg" width="240" height="180">-->
+            </div>
+               <p>换了一个坑，继续从事无线通信相关工作</p>
+               <p>积极自学中，准备换一个感兴趣的方向</p>
+            <br class="clear">
+        </dd>
+</div>
+
+<div class="timelineMajor">
+    <h2 class="timelineMajorMarker"><span>2012</span></h2>
+    <!-- /.timelineMinor -->
+    <dl class="timelineMinor">
+        <dt id="20120312"><a>硕士毕业</a></dt>
+        <dd class="timelineEvent" id="20120312EX" style="display:none;">
+            <h3>2012.03.12</h3>
+            <div class="media">
+                <!--<img src="./assets/hfut_south_schoole.jpg" width="240" height="180">-->
+            </div>
+            <p> 上海2年半的硕士学习生涯结束</p>
+            <p> 没有按预期的路走，很遗憾，一步错步步错，</p>
+            <p> 自此完成了自己的学习生涯，正式走上职业生涯</p>
+            <br class="clear">
+        </dd>
+        <!-- /.timelineEvent -->
+    </dl>
+    <dl class="timelineMinor">
+        <dt id="20120320"><a>工作</a></dt>
+        <dd class="timelineEvent" id="20120320EX" style="display:none;">
+            <h3>2012.03.20</h3>
+            <div class="media">
+            <!--
+                <img src="./assets/hfut_south_schoole.jpg" width="240" height="180">
+                -->
+            </div>
+            <p>第一份工作，完全转行，从事无线通信行业，和研究生研究方向完全不相关(语音音频处理 -> 无线通信)。</p>
+            <br class="clear">
+        </dd>
+        <!-- /.timelineEvent -->
+    </dl>
+</div>
+
+<div class="timelineMajor">
+    <h2 class="timelineMajorMarker"><span>2009</span></h2>
+    <!-- /.timelineMinor -->
+    <dl class="timelineMinor">
+        <dt id="20090701"><a>本科毕业</a></dt>
+        <dd class="timelineEvent" id="20090701EX" style="display:none;">
+            <h3>2009.07.01</h3>
+            <div class="media">
+                <img src="./assets/hfut_south_schoole.jpg" width="240" height="180">
+            </div>
+            <p>四年时间在合肥度过</p>
+            <p>有成长，有遗憾，和过去道别，踏上新的征途。</p>
+            <br class="clear">
+        </dd>
+        <!-- /.timelineEvent -->
+    </dl>
+</div>
+<div class="timelineMajor">
+    <h2 class="timelineMajorMarker"><span>2005</span></h2>
+    <!-- /.timelineMinor -->
+    <dl class="timelineMinor">
+        <dt id="20050901"><a>我的大学</a></dt>
+        <dd class="timelineEvent" id="20050901EX" style="display:none;">
+            <h3>2005.09.01</h3>
+            <div class="media">
+                <img src="./assets/hfut.jpg" width="240" height="180">
+            </div>
+            <p> 开始大学生活 </p>
+            <p> 大学生活平淡如水，一晃四年就过去了</p>
+            <br class="clear">
+        </dd>
+        <!-- /.timelineEvent -->
+    </dl>
+</div>
+
+<br class="clear">
+</div>
+<!-- /#timelineContainer -->
+</div>
+<!-- /.container -->
+
+<div id="copyright">
+	Copyright © 2017 <a href='http://wxer.github.io'>wxer</a> 2017-2017
+</div>
+
+<!-- GLOBAL CORE SCRIPTS -->
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="./inc/colorbox.js"></script>
+<script type="text/javascript" src="./js/timeliner.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $.timeliner({
+            startOpen: ['#20140120EX', '#20120320EX', '#20120312EX','#20090701EX'],
+            expandAllText: '+ 全部展开',
+            collapseAllText: '- 全部折叠'
+        });
+        // Colorbox Modal
+        //$(".CBmodal").colorbox({inline: true, initialWidth: 100, maxWidth: 682, initialHeight: 100, transition: "elastic", speed: 750});
+    });
+</script>
+</body>
+</html>
