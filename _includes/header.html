@@ -14,17 +14,23 @@
       <ul class="nav navbar-nav">
         <li>
           <a href="{{ '/' | prepend: site.baseurl }}">
-            <i class="fa fa-home"></i>主页
+            <strong>
+              <i class="fa fa-home"></i>主页
+            </strong>
           </a>
         </li>
         <li>
           <a href="{{ '/categories/' | prepend: site.baseurl }}">
-            <i class="fa fa-th-list"></i>分类
+            <strong>
+              <i class="fa fa-th-list"></i>分类
+            </strong>
           </a>
         </li>
         <li>
           <a href="{{ '/tag' | prepend: site.baseurl }}">
-            <i class="fa fa-tags"></i>标签
+            <strong>
+              <i class="fa fa-tags"></i>标签
+            </strong>
           </a>
         </li>
       </ul>
@@ -35,10 +41,18 @@
         </li>
         -->
         <li>
-          <a href="{{ '/donate/' | prepend: site.baseurl }}"><strong><i class="fa fa-flag"></i>打赏</strong></a>
+          <a href="{{ '/donate/' | prepend: site.baseurl }}">
+            <strong>
+              <i class="fa fa-flag"></i>打赏
+            </strong>
+          </a>
         </li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i>关于<b class="caret"></b></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <strong>
+              <i class="fa fa-user"></i>关于<b class="caret"></b>
+            </strong>
+          </a>
           <ul class="dropdown-menu">
             <li><a rel="nofollow" target="_blank" href="{{site.github}}"><i class="fa fa-github"></i>Github</a></li>
             <li class="divider"></li>
