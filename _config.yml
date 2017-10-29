@@ -20,6 +20,9 @@ exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
 github_username: wxer
 
+
+plugins: [jekyll-paginate]
+
 # Build settings
 markdown: kramdown
 
