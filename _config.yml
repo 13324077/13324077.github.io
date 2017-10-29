@@ -6,10 +6,10 @@ url: http://wxer.github.io
 resume_site: http://wxer.github.io/Resume.pdf
 github: https://wxer.github.io
 #baseurl: "/LessOrMore"
-baseurl: 
+baseurl:
 description: Actually, less is more!
 meta_description: 个人博客
-motto: Do Your Best
+motto: Do My Best
 banner: 天行健，君子以自强不息
 
 #permalink: /:categories/:year/:month/:day/:title/
@@ -27,4 +27,3 @@ plugins: [jekyll-paginate]
 markdown: kramdown
 
 baidu_analysis: 6c5a183ded654cc391681ec26a377b36
-
