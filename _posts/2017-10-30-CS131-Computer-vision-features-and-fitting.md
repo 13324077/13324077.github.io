@@ -68,4 +68,104 @@ tags: 计算机视觉
 ## 离散导数
 
 $$
+\frac{\mathrm df(x)}{\mathrm dx} = \lim_{\delta x\to 0}\frac{f(x)-f(x-\delta x)}{\delta x} = f^{'}(x)
 $$
+
+$$
+\frac{\mathrm df(x)}{\mathrm dx} = \frac{f(x)-f(x-1)}{1} = f^{'}(x)
+$$
+
+$$
+\frac{\mathrm df(x)}{\mathrm dx} = {f(x)-f(x-1)}= f^{'}(x)
+$$
+
+同时还有三种不同的求导方法
+
+- Backward： $$f^{'}(x)=f(x)-f(x-1)$$
+
+- Forward： $$f^{'}(x)=f(x+1)-f(x)$$
+
+- Central： $$f^{'}(x) = \frac{f(x+1) - f(x-1)}{2}$$
+
+这些导数叶可以表示为滤波器(滤波器和图像进行卷积)
+
+- Backward：$$f^{'}(x)=f(x) - f(x-1) \to [0, 1, -1]$$
+
+- Forward： $$f^{'}(x)=f(x+1)-f(x) \to [-1, 1, 0]$$
+
+- Central： $$f^{'}(x) = \frac{f(x+1) - f(x-1)}{2} \to [1, 0, -1]$$
+
+梯度$$(\nabla f)$$可以按如下公式进行计算：
+
+$$
+\nabla f(x,y) = \begin{bmatrix}
+\frac{\partial f(x,y)}{\partial x}\\
+\frac{\partial f(x,y)}{\partial y}
+\end{bmatrix} \\
+=\begin{bmatrix}
+f_{x}\\
+f_{y}
+\end{bmatrix}
+
+$$
+
+根据上式可以计算梯度的幅度和角度
+
+**幅度**：
+
+$$
+|\nabla f(x,y)| = \sqrt{f^2_x + f^2_y}
+$$
+
+**角度**
+
+$$
+\theta = tan^{-1}( \frac{f_y}{f_x} )
+$$
+
+
+## 减小噪声
+
+噪声会干扰梯度，这样使用简单的方法很难找到边缘， 尽管肉眼仍然可以检测到边缘。
+
+该方法首先对图像进行平滑。
+
+假设$$f$$表示图像，$$g$$表示平滑kernel，因此，为了找到平滑的梯度，必须计算（1维的例子）
+
+$$
+\frac{d}{dx}(f*g)
+$$
+
+通过卷积的导数定理，得到：
+
+$$
+\frac{d}{dx}(f*g) = f * \frac{d}{dx}g
+$$
+
+这种简化节省了一项操作，平滑消除了噪声，但是却模糊了边缘，同时使用不同的kernel大小可以检测到不同尺度的边缘。
+
+
+## Sobel噪声检测器
+
+该算法利用2个3x3kernel
+。。
+
+## Canny边缘检测器
+
+Canny边缘检测器有5个算法步骤
+
+。。。
+
+# Hough转换
+
+## Hough转换介绍
+
+## Hough转换用于检测线条的目标
+
+## 在a,b空间使用Hough转换检测线条
+
+## 累加器单元
+
+# RANSAC
+
+## RANSAC基础介绍
