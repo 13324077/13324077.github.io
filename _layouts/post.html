@@ -5,7 +5,7 @@ layout: default
   <div class="row">
     <div class="col-md-3">
       <div class="sidebar hidden-print" role="complementary">
-        {% include lefttree.html %} 
+        {% include lefttree.html %}
       </div>
     </div>
     <div class="col-md-9" role="main">
@@ -16,8 +16,28 @@ layout: default
               <!--
                 <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
               -->
-              <div class="meta">Posted on <span class="postdate">{{ page.date | date: "%b %d, %Y" }}</span> By <a target="_blank" href="{{site.url}}">{{ site.author }}</a></div>
-              <br />
+            <div class="meta">
+                <span class="fa fa-calendar" aria-hidden="true">
+                  {{ page.date | date: "%b %d, %Y" }}
+                </span>
+
+                {% if page.categories.size > 0 %} |
+                  <span class="fa fa-folder-open" aria-hidden="true">
+                  {% for category in page.categories %}
+                    <a class="post-categories" href="{{ site.baseurl }}/categories/">{{ category }}</a>
+                  {% endfor %}
+                  </span>
+                {% endif %}
+
+                {% if page.tags.size > 0 %} |
+                  <span class="fa fa-tag" aria-hidden="true">
+                  {% for tag in page.tags %}
+                    <a class="post-tags" href="{{ site.baseurl }}/tag">{{ tag }}</a>
+                  {% endfor %}
+                  </span>
+                {% endif %}
+              <hr>
+            </div>
             </header>
             <article class="post-content">
               {{ content }}
