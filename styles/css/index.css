@@ -6102,7 +6102,7 @@ html {
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, 'Microsoft YaHei', sans-serif;
   font-size: 14px;
-  line-height: 1.42857143;
+  line-height: 2;
   color: #333333;
   background-color: #f7f7f7;
 }
@@ -6456,7 +6456,7 @@ hr {
 .sidebar .nav > li > a:focus {
   text-decoration: none;
   background-color: #e8ebee;
-  border-right: 1px solid #d8dde2;
+  border-left: 2px solid #d8dde2;
 }
 .sidebar .nav > .active > a,
 .sidebar .nav > .active:hover > a,
@@ -6464,7 +6464,7 @@ hr {
   font-weight: bold;
   color: #238d69;
   background-color: transparent;
-  border-right: 1px solid #238d69;
+  border-left: 2px solid #238d69;
 }
 .sidebar .nav .nav {
   display: none;
