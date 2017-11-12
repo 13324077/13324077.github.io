@@ -20,6 +20,17 @@
 	<!--[if lt IE 9]>
     	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   	<![endif]-->
+
+	<link rel="stylesheet" href="{{ '/styles/prettify/prettify.css' | prepend: site.baseurl }}">
+	<script src="{{ '/styles/prettify/prettify.js' | prepend: site.baseurl }}"></script>
+
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$("pre").addClass("prettyprint");
+		prettyPrint();
+	});
+	</script>
+
   	<script>
 		var _hmt = _hmt || [];
 		(function() {
