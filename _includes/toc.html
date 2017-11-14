@@ -2,15 +2,11 @@
 
 <script>
   $(function(){
-      var padding=[20,40,60,80,100];
-      $('article').find('h1,h2,h3,h4,h5').each(function(index,item){
-          $('<a name="c'+index+'"></a>').insertBefore($(this));
-          var headerText=$(this).text();
-          var tagName=$(this)[0].tagName.toLowerCase();
-          var tagIndex=parseInt(tagName.charAt(1))-1;
-          //设置不同等级header的排列及缩进样式
-          $('#toc_nav').append($('<a href="#c'+index+'" style="padding-left:'+padding[tagIndex]+'px;display:block;">'+headerText+'</a>'));
-
+      $('article').find('h1,h2,h3,h4,h5').each(function(i) {
+          var current = $(this);
+          current.attr("id", "title" + i);
+          tag = current.prop('tagName').substr(-1);
+          $("#toc_nav").append("<div style='margin-left:"+15*(tag-1)+"px'><a id='link" + i + "' href='#title" +i + "'>" + current.html() + "</a></div>");
       });
   });
 
