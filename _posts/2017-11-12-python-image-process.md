@@ -1,6 +1,6 @@
 ---
 layout: post
-title: python数字图像处理
+title: python图像处理(2)之scikit-image基本用法
 date: 2017-11-12 12:37:29 +08:00
 category: 数字图像处理
 keywords: python，图像处理
@@ -567,85 +567,6 @@ io.show()
 ```
 
 ![coffee-label2grb-demo.png](/images/skimage/coffee-label2grb-demo.png)
-
-
-## 图像的绘制
-
-前面已经用到了图像的绘制，如
-
-```python
-io.imshow(img)
-```
-
-这一行代码的实质是利用matplotlib包对图片进行绘制，绘制成功后，返回一个matplotlib类型的数据。因此，我们也可以这样写：
-
-```python
-import matplotlib.pyplot as plt
-plt.imshow(img)
-```
-
-imshow()函数格式为：
-
-matplotlib.pyplot.imshow(X, cmap=None)
-
-- X: 要绘制的图像或数组。
-
-- cmap: 颜色图谱（colormap), 默认绘制为RGB(A)颜色空间。
-
-其它可选的颜色图谱如下列表：
-
-|颜色图谱|描述|
-|------|------|
-|autumn|红-橙-黄|
-|bone|黑-白，x线|
-|cool|青-洋红|
-|copper|黑-铜|
-|flag|红-白-蓝-黑|
-|gray|黑-白|
-|hot|黑-红-黄-白|
-|hsv|hsv颜色空间， 红-黄-绿-青-蓝-洋红-红|
-|inferno|黑-红-黄|
-|jet|蓝-青-黄-红|
-|magma|黑-红-白|
-|pink|黑-粉-白|
-|plasma|绿-红-黄|
-|prism|红-黄-绿-蓝-紫-...-绿模式|
-|spring|洋红-黄|
-|summer|绿-黄|
-|viridis|蓝-绿-黄|
-|winter|蓝-绿|
-|||
-
-用的比较多的有gray,jet等，如：
-
-```python
-plt.imshow(image,plt.cm.gray)
-
-plt.imshow(img,cmap=plt.cm.jet)
-```
-
-在窗口上绘制完图片后，返回一个AxesImage对象。要在窗口上显示这个对象，我们可以调用show()函数来进行显示。
-
-```python
-from skimage import io,data
-img=data.astronaut()
-dst=io.imshow(img)
-print(type(dst))
-io.show()
-```
-
-![astronaut_imshow_show.png](/images/skimage/astronaut_imshow_show.png)
-
-matplotlib是一个专业绘图的库，相当于matlab中的plot,可以设置多个figure窗口,设置figure的标题，隐藏坐标尺，甚至可以使用subplot在一个figure中显示多张图片。一般我们可以这样导入matplotlib库：
-
-```python
-import matplotlib.pyplot as plt
-```
-
-即我们绘图实际上用的是matplotlib包的pyplot模块。
-
-
-
 
 # 参考
 
