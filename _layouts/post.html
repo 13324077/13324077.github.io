@@ -25,7 +25,7 @@ layout: default
                 {% if page.categories.size > 0 %} |
                   <span class="fa fa-folder-open" aria-hidden="true">
                   {% for category in page.categories %}
-                    <a class="post-categories" href="{{ site.baseurl }}/categories/">{{ category }}</a>
+                    <a class="post-categories" href="{{ site.baseurl }}/categories/#{{ category }}-ref">{{ category }}</a>
                   {% endfor %}
                   </span>
                 {% endif %}
@@ -33,7 +33,7 @@ layout: default
                 {% if page.tags.size > 0 %} |
                   <span class="fa fa-tag" aria-hidden="true">
                   {% for tag in page.tags %}
-                    <a class="post-tags" href="{{ site.baseurl }}/tag">{{ tag }}</a>
+                    <a class="post-tags" href="{{ site.baseurl }}/tag/#{{ tag }}-ref">{{ tag }}</a>
                   {% endfor %}
                   </span>
                 {% endif %}

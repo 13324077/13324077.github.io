@@ -4,7 +4,7 @@ title: python图像处理(3)之scikit-image图像绘制
 date: 2017-11-15 21:12:29 +08:00
 category: 数字图像处理
 keywords: python，图像处理
-tags: python，图像处理
+tags: python 图像处理
 ---
 
 # imshow()介绍
