@@ -27,6 +27,7 @@ Mathjax
 2. [MAthJax入门教程(五分钟上手)](https://www.cnblogs.com/bobofuns/p/6829920.html)
 
 fontawesome
+---------------------
 
 1.[fontawesome官网](http://fontawesome.dashgame.com/)
 
@@ -34,8 +35,10 @@ fontawesome
 jekyll相关
 --------------------
 
-[List posts in a category](https://learn.cloudcannon.com/jekyll/list-posts-in-a-category/)
+1. [List posts in a category](https://learn.cloudcannon.com/jekyll/list-posts-in-a-category/)
 
-[用jekyll制作高大上的网站（二）——实际应用](https://www.cnblogs.com/strick/p/5484779.html)
+2. [用jekyll制作高大上的网站（二）——实际应用](https://www.cnblogs.com/strick/p/5484779.html)
 
-[Jekyll 教程五：常用变量](http://www.zhanxin.info/jekyll/2013-08-07-jekyll-variables.html)
+3. [Jekyll 教程五：常用变量](http://www.zhanxin.info/jekyll/2013-08-07-jekyll-variables.html)
+
+4. [jekyll 的使用](https://www.cnblogs.com/mo-wang/p/5117408.html)
