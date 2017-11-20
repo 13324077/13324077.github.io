@@ -29,3 +29,13 @@ Mathjax
 fontawesome
 
 1.[fontawesome官网](http://fontawesome.dashgame.com/)
+
+
+jekyll相关
+--------------------
+
+[List posts in a category](https://learn.cloudcannon.com/jekyll/list-posts-in-a-category/)
+
+[用jekyll制作高大上的网站（二）——实际应用](https://www.cnblogs.com/strick/p/5484779.html)
+
+[Jekyll 教程五：常用变量](http://www.zhanxin.info/jekyll/2013-08-07-jekyll-variables.html)
