@@ -2,9 +2,11 @@
 layout: post
 title: 完整机器学习项目实例
 date: 2017-09-16 22:23:06 +08:00
-category: 机器学习
+category: 
+    - 机器学习
 keywords: python, ML
-tags: 机器学习
+tags: 
+    - 机器学习
 ---
 
 * content

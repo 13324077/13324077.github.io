@@ -2,9 +2,11 @@
 layout: post
 title: 线性分类算法
 date: 2017-09-04 12:27:30 +08:00
-category: 机器学习
+category: 
+    - 机器学习
 keywords: python, opencv
-tags: 机器学习
+tags: 
+    - 机器学习
 ---
 
 * content

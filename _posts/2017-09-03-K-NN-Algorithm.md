@@ -2,9 +2,11 @@
 layout: post
 title: k-NN算法
 date: 2017-09-03 15:16:30 +08:00
-category: 机器学习
+category:
+    - 机器学习
 keywords: python, ML, kNN
-tags: 机器学习
+tags: 
+    - 机器学习
 ---
 
 * content
