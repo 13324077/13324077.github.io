@@ -2,9 +2,12 @@
 layout: post
 title: python图像处理(2)之scikit-image基本用法
 date: 2017-11-12 12:37:29 +08:00
-category: 数字图像处理
+category:
+    - 数字图像处理
 keywords: python，图像处理
-tags: python 图像处理
+tags:
+    - python
+    - 数字图像处理
 ---
 
 * content

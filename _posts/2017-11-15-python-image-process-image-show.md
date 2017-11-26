@@ -7,7 +7,7 @@ category:
 keywords: python，图像处理
 tags:
     - python
-    - 图像处理
+    - 数字图像处理
 ---
 
 # imshow()介绍

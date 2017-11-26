@@ -2,9 +2,12 @@
 layout: post
 title: python图像处理(1)之scikit-image库使用入门
 date: 2017-11-11 09:36:59 +08:00
-category: 图像处理
+category:
+    - 数字图像处理
 keywords: python, scikit-image
-tags: python scikit-image
+tags:
+    - python
+    - scikit-image
 ---
 
 * content
