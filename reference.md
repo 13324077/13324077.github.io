@@ -42,3 +42,9 @@ jekyll相关
 3. [Jekyll 教程五：常用变量](http://www.zhanxin.info/jekyll/2013-08-07-jekyll-variables.html)
 
 4. [jekyll 的使用](https://www.cnblogs.com/mo-wang/p/5117408.html)
+
+
+Useful Links
+=====================
+
+[Andrej Karpathy blog](http://karpathy.github.io/)
