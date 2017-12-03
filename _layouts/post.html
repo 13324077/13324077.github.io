@@ -43,6 +43,22 @@ layout: default
             <article class="post-content">
               {{ content }}
             </article>
+            <hr>
+            <!--翻页功能-->
+            <section class="inner">
+            <ul class="pager">
+                {% if page.previous.url %}
+                <li class="previous">
+                   <a href="{{page.previous.url}}">←{{page.previous.title}}<span class="label label-primary">Older</span></a>
+                </li>
+                {% endif %}
+                {% if page.next.url %}
+                <li class="next">
+                	<a href="{{page.next.url}}">{{page.next.title}}<span class="label label-primary">Newer</span>→</a>
+                </li>
+                {% endif %}
+             </ul>
+            </section>
         </div>
       </div>
     </div>
