@@ -173,7 +173,7 @@ $$Dist(X^n, X^m) = \sqrt{\sum_{i=1}^{D}{(X_i^n - X_i^m)^2}}$$
 
 偏差与方差之间均衡如下图所示
 
-![bias-variance-backoff](/image/cs131/lec11/bias-variance-backoff.png)
+![bias-variance-backoff](/images/cs131/lec11/bias-variance-backoff.png)
 
 那么 **如何减小方差**:
 
