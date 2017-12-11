@@ -3,12 +3,6 @@ layout: default
 ---
 <div class="container docs-container">
   <div class="row">
-    <div class="col-md-3">
-      <div class="sidebar hidden-print" role="complementary">
-        {% include lefttree.html %}
-        {% include toc.html %}
-      </div>
-    </div>
     <div class="col-md-9" role="main" id="page_top">
       <div class="panel docs-content">
         <div class="wrapper">
@@ -49,12 +43,12 @@ layout: default
             <ul class="pager">
                 {% if page.previous.url %}
                 <li class="previous">
-                   <a href="{{page.previous.url}}">←{{page.previous.title}}<span class="label label-primary">Older</span></a>
+                   <a href="{{page.previous.url}}">←{{page.previous.title}}<span class="label label-primary">Prev</span></a>
                 </li>
                 {% endif %}
                 {% if page.next.url %}
                 <li class="next">
-                	<a href="{{page.next.url}}">{{page.next.title}}<span class="label label-primary">Newer</span>→</a>
+                	<a href="{{page.next.url}}">{{page.next.title}}<span class="label label-primary">Next</span>→</a>
                 </li>
                 {% endif %}
              </ul>
@@ -62,5 +56,12 @@ layout: default
         </div>
       </div>
     </div>
+    <div class="col-md-3">
+      <div class="sidebar hidden-print" role="complementary">
+        {% include lefttree.html %}
+        {% include toc.html %}
+      </div>
+    </div>
+
   </div>
 </div>
