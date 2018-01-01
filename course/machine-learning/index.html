@@ -34,9 +34,9 @@ header: Posts By Courses
       <div class="panel docs-content">
         <div class="wrapper">
           <div class="home">
-            <h2 id="linear-algebra-ref">计算机视觉</h2>
+            <h2 id="linear-algebra-ref">机器学习</h2>
             <ul>
-    			{% for post in site.categories.machine-learning %}
+    			{% for post in site.categories.ml %}
                     <ol class="breadcrumb">
                       <li> <a  href='{{ post.url }}'>{{post.title}}</a></li>
                       <li class="pull-right">{{ post.date | date:"%Y年%m月%d日" }}</li>

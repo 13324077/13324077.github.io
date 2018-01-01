@@ -65,3 +65,4 @@ OpenAI Gym consists of two parts:
 # Useful Links
 
 [Andrej Karpathy blog](http://karpathy.github.io/)
+[TensorFlow 中文版资源大全](http://whosmall.com/?post=322)
