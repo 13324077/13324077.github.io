@@ -32,7 +32,7 @@ author:
             desc: Debug the Wi-Fi RF Performance and the Protocol related function;
           - item4:
             index: 4
-            desc: Familiar the 802.11b/g/n/a/ac/ax protocol
+            desc: Familiar with the 802.11b/g/n/a/ac/ax protocol
 
       - work2:
         company: ZTE Corporation
@@ -54,7 +54,7 @@ author:
 
     educationHistory:
       - education1:
-        organization: Shanghai Jiaotong University
+        organization: Shanghai Jiao Tong University
         location: Shanghai, China
         degree: Master
         major: Software Engineering
@@ -69,7 +69,7 @@ author:
             desc: Machine Learning
 
       - education1:
-        organization: HeFei University Of Technology
+        organization: HeFei University of Technology
         location: HeFei, China
         degree: Bachelor
         major: Software Engineering
@@ -112,7 +112,7 @@ author:
         percentage: 50%
 ---
 
-<div class="container-fluid">
+<div class="container">
     <div class="row">
         <div class="col-md-8">
             {% if page.author.workHistory %}
@@ -123,7 +123,7 @@ author:
                             {% if work.started %}
                                 <div class="timeline-badge info">{{ work.started }}</div>
                             {% endif %}
-                            <div class="timeline-panel grid-block">
+                            <div class="grid-block">
                                 <div class="timeline-heading">
                                     {% if work.company %}
                                         <h4 class="timeline-title">{{ work.company }} </h4>
@@ -166,7 +166,7 @@ author:
                             {% if education.started %}
                                 <div class="timeline-badge info">{{ education.started }}</div>
                             {% endif %}
-                            <div class="timeline-panel grid-block">
+                            <div class="grid-block">
                                 <div class="timeline-heading">
                                     {% if education.organization %}
                                         <h4 class="timeline-title">{{ education.organization }}</h4>
@@ -371,7 +371,8 @@ author:
             <div class="deviter"></div>
             <h3 class="title with-icon"><span class="fa fa-location-arrow cat-title"></span> Location</h3>
             <div class="grid-block">
-                <iframe src="https://www.google.com/maps/embed/v1/place?q={{ page.author.address }}&key=AIzaSyClEWLh20lxrQBFR7omuuVESviszPxONyk" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
+                <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5ytn1ssq6za&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async">
+                </script>
             </div>
         </div>
     </div>
