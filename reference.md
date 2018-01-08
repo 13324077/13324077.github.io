@@ -8,9 +8,15 @@ permalink: /reference/
 {:toc}
 
 
-# 计算机视觉:基础与应用
+# 计算机视觉
 
-[计算机视觉:基础与应用](http://vision.stanford.edu/teaching/cs131_fall1718/)
+1. [计算机视觉:基础与应用](http://vision.stanford.edu/teaching/cs131_fall1718/)
+
+2. [CSC2523 - Deep Learning in Computer Vision](http://www.cs.utoronto.ca/~fidler/teaching/2015/CSC2523.html)
+
+3. [CSC2548: Machine Learning in Computer Vision]()
+
+4. [CS231A: Computer Vision, From 3D Reconstruction to Recognition](http://web.stanford.edu/class/cs231a/)
 
 # 人工智能:原理与技术
 
@@ -22,6 +28,42 @@ permalink: /reference/
 
 [CS 294: Deep Reinforcement Learning](http://rll.berkeley.edu/deeprlcourse/)
 
+# 语音识别
+
+[AUTOMATIC SPEECH RECOGNITION (ASR): 2016/17](http://www.inf.ed.ac.uk/teaching/courses/asr/)
+
+# 大数据
+
+1. [CS246 Mining Massive Data Sets (Winter 2018)](http://web.stanford.edu/class/cs246/)
+
+>该课程讨论数据挖掘和机器学习算法，用于分析非常大量的数据，重点在于使用Map Reduce作为并行算法的工具，来处理非常大的数据。
+>
+>时间： 2018.1.9～...
+>
+>01/09: 课程简介， MapReduce
+
+# 深度学习
+
+1. [CS 20: Tensorflow for Deep Learning Research](https://web.stanford.edu/class/cs20si/)
+
+> Tensorflow是由Google中研究者开发的一个非常强大用于机器学习的软件库，该软件库有很多预先构建的函数，减轻构建不同神经网络的任务。
+> Tensorflow允许在不同的计算机之间进行分布式计算，也可以在单个机器上的多个CPU和GPU上进行计算。Tensorflow提供Python API接口，同时提供C++ API接口(具有较少的文件说明)，以下使用Python对Tensorflow进行介绍
+> 介绍用于深度学习研究的Tensorflow库的基础和用法。**目标** 是理解Tensorflow的图形化计算模型，Tensorflow提供的功能，以及学习如何构建和组织最适合的深度学习项目的模型，
+>
+> 通过对Tensorflow的学习，则可以利用Tensorflow构建不同复杂度的模型，从简单的线性/逻辑回归到卷积神经网络(CNN)和递归神经网络(RNN)，来解决像词嵌入，翻译，光学字符识别，增强学习。
+>
+> 时间： 2018.1.12 ～ 2018.3.16
+>
+
+# 自然语言处理(NLP)
+
+1. [CS 124: From Languages to Information](http://web.stanford.edu/class/cs124/)
+
+> 网络世界有大量以语言和社交网络的形式的非结构化信息。学习如何理解它以及如何通过语言与人类交互, 从回答问题到提供建议。
+>
+
+2. [CS224n: Natural Language Processing with Deep Learning](http://web.stanford.edu/class/cs224n/)
+
 # WEB相关
 
 ## Mathjax
@@ -32,19 +74,8 @@ permalink: /reference/
 
 ## fontawesome
 
-
 1.[fontawesome官网](http://fontawesome.dashgame.com/)
 
-
-## jekyll相关
-
-1. [List posts in a category](https://learn.cloudcannon.com/jekyll/list-posts-in-a-category/)
-
-2. [用jekyll制作高大上的网站（二）——实际应用](https://www.cnblogs.com/strick/p/5484779.html)
-
-3. [Jekyll 教程五：常用变量](http://www.zhanxin.info/jekyll/2013-08-07-jekyll-variables.html)
-
-4. [jekyll 的使用](https://www.cnblogs.com/mo-wang/p/5117408.html)
 
 # 常用Python库
 
