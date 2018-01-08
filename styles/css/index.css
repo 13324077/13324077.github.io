@@ -6354,13 +6354,13 @@ hr {
   }
 }
 .footer {
-  padding-top: 40px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin-top: 100px;
-  color: #777;
+  color: #000;
   background: #fff;
   text-align: center;
-  border-top: 1px solid #eeeeee;
+  border-top: 3px solid #238d69;
 }
 .footer-links {
   margin: 10px 0;
