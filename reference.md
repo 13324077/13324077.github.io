@@ -7,6 +7,12 @@ permalink: /reference/
 * content
 {:toc}
 
+# 机器学习
+
+1. [CS 228: Probabilistic Graphical Models](http://cs.stanford.edu/~ermon/cs228/)
+
+> [Lecture Notes](https://ermongroup.github.io/cs228-notes/)
+
 
 # 计算机视觉
 
