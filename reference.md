@@ -20,7 +20,7 @@ permalink: /reference/
 
 2. [CSC2523 - Deep Learning in Computer Vision](http://www.cs.utoronto.ca/~fidler/teaching/2015/CSC2523.html)
 
-3. [CSC2548: Machine Learning in Computer Vision]()
+3. [CSC2548: Machine Learning in Computer Vision](http://www.cs.utoronto.ca/~fidler/teaching/2018/CSC2548.html)
 
 4. [CS231A: Computer Vision, From 3D Reconstruction to Recognition](http://web.stanford.edu/class/cs231a/)
 
