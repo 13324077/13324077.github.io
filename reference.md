@@ -13,6 +13,7 @@ permalink: /reference/
 
 > [Lecture Notes](https://ermongroup.github.io/cs228-notes/)
 
+2. [CSC 321:Intro to Neural Networks and Machine Learning](http://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/)
 
 # 计算机视觉
 
