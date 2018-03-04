@@ -26,3 +26,7 @@ date: 2017-12-11 20:50:30 +08:00
 - [Jekyll 教程五：常用变量](http://www.zhanxin.info/jekyll/2013-08-07-jekyll-variables.html)
 
 - [jekyll 的使用](https://www.cnblogs.com/mo-wang/p/5117408.html)
+
+## Global(Gtags)
+
+- [GNU GLOBAL Source Code Tag System](https://www.gnu.org/software/global/)

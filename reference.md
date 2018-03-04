@@ -37,7 +37,7 @@ permalink: /reference/
 
 # 语音识别
 
-[AUTOMATIC SPEECH RECOGNITION (ASR): 2016/17](http://www.inf.ed.ac.uk/teaching/courses/asr/)
+[AUTOMATIC SPEECH RECOGNITION (ASR)](http://www.inf.ed.ac.uk/teaching/courses/asr/)
 
 # 大数据
 
@@ -71,6 +71,11 @@ permalink: /reference/
 
 2. [CS224n: Natural Language Processing with Deep Learning](http://web.stanford.edu/class/cs224n/)
 
+
+# 数字图像处理
+
+1. [Digital Image Processing](https://web.stanford.edu/class/ee368/handouts.html)
+
 # WEB相关
 
 ## Mathjax
@@ -99,6 +104,12 @@ OpenAI Gym consists of two parts:
 - **The gym open-source library**: a collection of test problems — environments — that you can use to work out your reinforcement learning algorithms. These environments have a shared interface, allowing you to write general algorithms.
 
 - **The OpenAI Gym service**: a site and API allowing people to meaningfully compare performance of their trained agents.
+
+## [scikit-image](http://www.scipy-lectures.org/packages/scikit-image/)
+
+# 音视频资料
+
+[ffmpeg-libav-tutorial](https://github.com/leandromoreira/ffmpeg-libav-tutorial)
 
 # Useful Links
 
