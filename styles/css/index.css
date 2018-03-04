@@ -6104,6 +6104,7 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, 'Microsoft YaHei', sans-serif;
   font-size: 16px;
   line-height: 1.8;
+  letter-spacing: 1.5px;
   color: #333333;
   background-color: #f7f7f7;
 }
@@ -6418,15 +6419,15 @@ hr {
   background-color: #fff;
   padding: 1px 60px 80px 60px;
   margin: 0 -15px;
-  border: none;
-  border-radius: 0 0 4px 4px;
+  border:none; 
+  border-radius: 8px;
 }
 .docs-content .container-fluid {
   padding: 0;
 }
 .docs-content {
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
 }
 .docs-section + .docs-section {
   padding-top: 40px;
@@ -6483,13 +6484,14 @@ hr {
   background: #fff;
   background-color: #fff;
   padding: 1px 10px 1px 10px;
+  border-radius: 10px;
 }
 .docs-sidebar .container-fluid {
   padding: 0;
 }
 .docs-sidebar {
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
 }
 @media (min-width: 992px) {
   .sidebar {
