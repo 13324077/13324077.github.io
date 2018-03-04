@@ -3,7 +3,7 @@ layout: post
 title: 讲义8 - 图像缩放
 date: 2017-11-26 22:51:26 +08:00
 category:
-    - cv
+    - 计算机视觉
 keywords:
 tags:
     - 计算机视觉

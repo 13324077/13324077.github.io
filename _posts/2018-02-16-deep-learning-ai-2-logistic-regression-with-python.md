@@ -3,7 +3,7 @@ layout: post
 title: Deep Learning —— Logistic Regression实现
 date: 2018-02-16 13:01:16 +08:00
 category:
-    - DL
+    - 深度学习
 keywords:
 tags:
     - 逻辑回归

@@ -3,7 +3,7 @@ layout: post
 title: 讲义4 - 像素和滤波
 date: 2017-11-23 16:31:26 +08:00
 category:
-    - cv
+    - 计算机视觉
 keywords: features，CV
 tags:
     - 计算机视觉

@@ -2,9 +2,11 @@
 layout: post
 title: 计算机视觉:基础&应用(一） —— 简介
 date: 2017-09-17 16:14:56 +08:00
-category: 计算机视觉
+category:
+    - 计算机视觉
 keywords: python, opencv
-tags: 计算机视觉
+tags:
+    - 计算机视觉
 ---
 
 * content

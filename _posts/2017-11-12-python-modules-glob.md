@@ -2,9 +2,11 @@
 layout: post
 title: python模块之glob用法
 date: 2017-11-12 00:03:29 +08:00
-category: python模块
+category:
+    - python
 keywords: glob
-tags: glob
+tags:
+    - glob
 ---
 
 * content

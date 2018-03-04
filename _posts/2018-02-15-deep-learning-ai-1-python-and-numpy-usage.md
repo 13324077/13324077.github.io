@@ -3,7 +3,7 @@ layout: post
 title: Deep Learning —— python & numpy基本用法
 date: 2018-02-15 10:01:16 +08:00
 category:
-    - DL
+    - 深度学习
 keywords:
 tags:
     - python

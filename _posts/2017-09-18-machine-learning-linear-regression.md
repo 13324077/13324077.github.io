@@ -2,9 +2,11 @@
 layout: post
 title: 线性回归
 date: 2017-09-18 21:23:30 +08:00
-category: 机器学习
+category:
+    - 机器学习
 keywords: python, ML, LR
-tags: 机器学习
+tags:
+    - 机器学习
 ---
 
 * content

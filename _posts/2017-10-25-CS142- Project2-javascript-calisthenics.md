@@ -2,8 +2,10 @@
 layout: post
 title:  CS 142 - Project 2 - JavaScritp Calisthenics
 date: 2017-10-25 21:33:12 +08:00
-categories: Web
-tags:  javascript
+category:
+    - Web
+tags:  
+    - javascript
 ---
 
 * content

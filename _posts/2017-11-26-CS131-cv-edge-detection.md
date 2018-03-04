@@ -3,7 +3,7 @@ layout: post
 title: 讲义5 - 边缘检测
 date: 2017-11-26 13:27:26 +08:00
 category:
-    - cv
+    - 计算机视觉
 keywords: features，CV
 tags:
     - 计算机视觉

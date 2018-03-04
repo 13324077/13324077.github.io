@@ -2,8 +2,8 @@
 layout: post
 title:  讲义1 - 计算机视觉概述
 date: 2017-10-23 23:18:23 +08:00
-categories: 
-    - cv
+category:
+    - 计算机视觉
 tags:
     - 计算机视觉
 ---

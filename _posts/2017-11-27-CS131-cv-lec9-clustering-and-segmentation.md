@@ -3,7 +3,7 @@ layout: post
 title: 讲义9 - 聚类与分割
 date: 2017-11-27 21:12:26 +08:00
 category:
-    - cv
+    - 计算机视觉
 keywords:
 tags:
     - 计算机视觉

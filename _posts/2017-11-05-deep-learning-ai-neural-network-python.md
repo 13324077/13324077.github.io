@@ -2,9 +2,11 @@
 layout: post
 title: 神经网络编程之Python
 date: 2017-11-05 08:53:30 +08:00
-category: 机器学习
+category:
+    - 机器学习
 keywords: python, ML
-tags: python
+tags:
+    - python
 ---
 
 * content

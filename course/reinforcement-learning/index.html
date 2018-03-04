@@ -2,6 +2,7 @@
 layout: default
 title: 课程
 header: Posts By Courses
+category: 增强学习
 ---
 
 <div class="container docs-container">
@@ -34,15 +35,28 @@ header: Posts By Courses
       <div class="panel docs-content">
         <div class="wrapper">
           <div class="home">
-            <h2 id="linear-algebra-ref">增强学习</h2>
+            <h2 id="linear-algebra-ref">{{ page.category }}</h2>
+            <!--
             <ul>
-    			{% for post in site.categories.RL %}
+    			{% for post in site.categories.cv %}
                     <ol class="breadcrumb">
                       <li> <a  href='{{ post.url }}'>{{post.title}}</a></li>
                       <li class="pull-right">{{ post.date | date:"%Y年%m月%d日" }}</li>
                     </ol>
     			{% endfor %}
             </ul>
+            -->
+            {% assign categoryposts = site.categories[page.category] %}
+            <article>
+                <ul class="article-list">
+                {% for post in categoryposts %}
+                    <ol class="breadcrumb">
+                      <li> <a  href='{{ post.url }}'>{{post.title}}</a></li>
+                      <li class="pull-right">{{ post.date | date:"%Y年%m月%d日" }}</li>
+                    </ol>
+                {% endfor %}
+                </ul>
+            </article>
           </div>
         </div>
       </div>

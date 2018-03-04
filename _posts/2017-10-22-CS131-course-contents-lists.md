@@ -2,8 +2,8 @@
 layout: post
 title:  CS 131 - 课程内容列表
 date: 2017-10-22 20:48:30 +08:00
-categories:
-    - cv
+category:
+    - 计算机视觉
 tags:
     - 计算机视觉
 ---

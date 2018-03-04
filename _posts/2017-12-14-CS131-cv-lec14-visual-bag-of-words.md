@@ -3,7 +3,7 @@ layout: post
 title: 讲义14 - 视觉词袋
 date: 2017-12-14 22:08:16 +08:00
 category:
-    - cv
+    - 计算机视觉
 keywords:
 tags:
     - 计算机视觉

@@ -31,6 +31,10 @@ layout: default
                   {% endfor %}
                   </span>
                 {% endif %}
+
+                <span aria-hidden="true">
+                    | 字数:{{ page.content |  strip_html | strip_newlines | remove: " " | size }}
+                </span>
               <hr>
             </div>
             </header>

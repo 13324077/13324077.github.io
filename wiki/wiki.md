@@ -27,6 +27,9 @@ date: 2017-12-11 20:50:30 +08:00
 
 - [jekyll 的使用](https://www.cnblogs.com/mo-wang/p/5117408.html)
 
+- **[Jekyll 添加 tag 专属页面](http://taoalpha.github.io/blog/2015/05/31/tech-jekyll-tag-page/)**
+
+
 ## Global(Gtags)
 
 - [GNU GLOBAL Source Code Tag System](https://www.gnu.org/software/global/)

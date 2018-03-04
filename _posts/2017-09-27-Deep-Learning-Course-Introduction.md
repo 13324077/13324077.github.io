@@ -2,9 +2,11 @@
 layout: post
 title: 深度学习概述
 date: 2017-09-27 21:48:30 +08:00
-category: 深度学习
+category:
+    - 深度学习
 keywords: DL
-tags: 深度学习
+tags:
+    - 深度学习
 ---
 
 * content

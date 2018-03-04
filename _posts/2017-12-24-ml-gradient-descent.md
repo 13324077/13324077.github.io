@@ -3,7 +3,7 @@ layout: post
 title: 机器学习(1) - 梯度下降
 date: 2017-12-24 10:00:16 +08:00
 category:
-    - ml
+    - 机器学习
 keywords:
 tags:
     - 机器学习

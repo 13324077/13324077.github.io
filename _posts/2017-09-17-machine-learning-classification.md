@@ -2,9 +2,11 @@
 layout: post
 title: 机器学习之分类算法
 date: 2017-09-17 16:51:00 +08:00
-category: 机器学习
+category:
+    - 机器学习
 keywords: python, classification
-tags: 机器学习
+tags:
+    - 机器学习
 ---
 
 * content

@@ -2,9 +2,12 @@
 layout: post
 title: 神经网络编程基础
 date: 2017-11-04 09:16:30 +08:00
-category: 机器学习
+category:
+    - 机器学习
 keywords: python, ML, kNN
-tags: 逻辑回归 梯度下降
+tags:
+    - 逻辑回归
+    - 梯度下降
 ---
 
 * content

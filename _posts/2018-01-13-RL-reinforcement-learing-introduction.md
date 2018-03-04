@@ -3,7 +3,7 @@ layout: post
 title: 增强学习介绍(1)
 date: 2018-01-13 10:22:02 +08:00
 category:
-    - RL
+    - 增强学习
 keywords:
 tags:
     - 增强学习

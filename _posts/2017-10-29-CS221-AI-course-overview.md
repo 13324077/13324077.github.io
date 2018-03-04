@@ -2,8 +2,10 @@
 layout: post
 title:  讲义1 - 人工智能课程概述
 date: 2017-10-29 10:36:39 +08:00
-categories: 人工智能
-tags:  AI
+category:
+    - 人工智能
+tags:  
+    - AI
 ---
 
 * content

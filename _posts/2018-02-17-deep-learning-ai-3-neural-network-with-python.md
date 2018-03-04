@@ -3,7 +3,7 @@ layout: post
 title: Deep Learning —— Neural Network实现
 date: 2018-02-17 17:20:16 +08:00
 category:
-    - DL
+    - 深度学习
 keywords:
 tags:
     - 神经网络

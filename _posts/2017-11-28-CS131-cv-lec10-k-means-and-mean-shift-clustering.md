@@ -3,7 +3,7 @@ layout: post
 title: 讲义10 - K-means & Mean-Shift聚类
 date: 2017-11-28 21:56:26 +08:00
 category:
-    - cv
+    - 计算机视觉
 keywords:
 tags:
     - 计算机视觉

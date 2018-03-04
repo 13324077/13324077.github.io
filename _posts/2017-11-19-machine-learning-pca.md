@@ -2,10 +2,10 @@
 layout: post
 title: PCA原理分析
 date: 2017-11-19 21:26:29 +08:00
-category:
+categories:
     - 机器学习
     - PCA
-    - linear-algebra
+    - 线性代数
 keywords: PCA
 tags:
     - 机器学习

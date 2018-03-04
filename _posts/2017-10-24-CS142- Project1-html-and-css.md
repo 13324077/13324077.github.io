@@ -2,8 +2,11 @@
 layout: post
 title:  CS 142 - Project 1 - HTML and CSS
 date: 2017-10-24 22:38:30 +08:00
-categories: Web
-tags:  HTML CSS
+category:
+    - Web
+tags:  
+    - HTML
+    - CSS
 ---
 
 * content

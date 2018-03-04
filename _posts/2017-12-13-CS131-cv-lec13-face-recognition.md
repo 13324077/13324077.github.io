@@ -3,7 +3,7 @@ layout: post
 title: 讲义13 - 脸部识别和特征降维
 date: 2017-12-13 21:13:16 +08:00
 category:
-    - cv
+    - 计算机视觉
 keywords:
 tags:
     - 计算机视觉

@@ -2,9 +2,11 @@
 layout: post
 title: 讲义2 - 线性分类
 date: 2017-10-29 16:27:45 +08:00
-category: 人工智能
+category:
+    - 人工智能
 keywords: classification
-tags: AI
+tags:
+    - AI
 ---
 
 * content

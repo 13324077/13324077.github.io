@@ -1,4 +1,4 @@
-本主题拷贝自 [LessOrMore](https://github.com/luoyan35714/LessOrMore)
+本主题基于 [LessOrMore](https://github.com/luoyan35714/LessOrMore)修改
 
 致谢
 ====================================

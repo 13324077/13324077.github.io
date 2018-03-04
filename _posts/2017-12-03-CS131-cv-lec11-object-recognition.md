@@ -3,7 +3,7 @@ layout: post
 title: 讲义11 - 对象识别
 date: 2017-12-03 21:09:26 +08:00
 category:
-    - cv
+    - 计算机视觉
 keywords:
 tags:
     - 计算机视觉
