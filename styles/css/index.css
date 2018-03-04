@@ -6419,7 +6419,7 @@ hr {
   background-color: #fff;
   padding: 1px 60px 80px 60px;
   margin: 0 -15px;
-  border:none; 
+  border:none;
   border-radius: 8px;
 }
 .docs-content .container-fluid {
@@ -7136,4 +7136,36 @@ td.visible-print {
 :target{
     padding-top: 70px;
     margin-top: -70px;
+}
+
+.post-content h1 {
+	color: #FF0033;
+}
+
+.post-content h2 {
+	color: #CC3333;
+}
+
+.post-content h3 {
+	color: #FF6600;
+}
+
+.post-content h1 {
+  font-size: 32px;
+}
+.post-content h2 {
+  font-size: 28px;
+}
+.post-content h3 {
+  font-size: 24px;
+}
+
+.post-content h4 {
+  font-size: 20px;
+}
+.post-content h5 {
+  font-size: 18px;
+}
+.post-content h6 {
+  font-size: 16px;
 }
