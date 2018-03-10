@@ -6507,7 +6507,7 @@ hr {
   }
   .sidebar.affix {
     position: fixed;
-    top: 45px;
+    top: 75px;
   }
   .sidebar.affix-bottom {
     position: absolute;
