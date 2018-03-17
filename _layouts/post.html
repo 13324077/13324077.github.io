@@ -47,12 +47,12 @@ layout: default
             <ul class="pager">
                 {% if page.previous.url %}
                 <li class="previous">
-                   <a href="{{page.previous.url}}">←{{page.previous.title}}<span class="label label-primary">Prev</span></a>
+                   <a href="{{ page.previous.url }}" title="{{ page.previous.title }}"><span class="fa fa-arrow-circle-left">Prev</span></a>
                 </li>
                 {% endif %}
                 {% if page.next.url %}
                 <li class="next">
-                	<a href="{{page.next.url}}">{{page.next.title}}<span class="label label-primary">Next</span>→</a>
+                	<a href="{{ page.next.url }}" title="{{ page.next.title }}">Next<span class="fa fa-arrow-circle-right"></span></a>
                 </li>
                 {% endif %}
              </ul>
