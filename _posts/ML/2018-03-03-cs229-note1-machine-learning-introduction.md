@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 机器学习介绍
+title: 机器学习(1) - 线性回归
 date: 2018-03-30 22:03:30 +08:00
 category:
     - 机器学习
@@ -98,3 +98,70 @@ $$J(\theta) = \frac{1}{2} \sum_{i=1}^{m}{(h_{\theta}(x^{(i)}) - y^{(i)})}^2$$
 即为 **最小二乘损失函数**， 从而产生了 **普通最小二乘回归模型**， 这只是非常大的算法簇中的一个特例。
 
 ## LMS算法
+
+选择$$\theta$$使$$J(\theta)$$最小化，为此，使用搜索算法从初始的猜想的$$\theta$$开始，反复的改变$$\theta$$使$$J(\theta)$$逐渐变小，直到最后收敛到的$$\theta$$使$$J(\theta)$$最小。
+
+以下考虑使用 **梯度下降算法**， 从初始的$$\theta$$开始，然后反复执行如下的更新:
+
+$$\theta_{j} := \theta_j - \alpha \frac{\partial}{\partial \theta_j} J(\theta)$$
+
+> **注**: 更新$$\theta$$时，是**同时**对所有的$$\theta_j (j = 0,...,n)$$值执行更新操作
+
+其中， $$\alpha$$称为 **学习率**
+
+梯度下降算法是一个很自然的算法，重复的在$$J$$最陡峭的下降方向进行$$\theta$$更新
+
+从公式(4)可知，实现该算法，需要计算$$J(\theta)$$对$$\theta_j$$的偏导数，如下
+
+$$
+\begin{align}
+\frac{\partial}{\partial \theta_j} J(\theta) &= \frac{\partial}{\partial \theta_j} \frac{1}{2} (h_\theta (x) - y)^2 \\
+ &= 2 \cdot \frac{1}{2}(h_\theta(x) - y) \cdot \frac{\partial}{\partial \theta_j}(h_\theta (x) - y) \\
+ &= (h_\theta (x) - y) \cdot \frac{\partial}{\partial \theta_j} \bigg(\sum_{i=0}^{n} \theta_i x_i - y \bigg) \\
+ &=(h_\theta (x) - y)x_j
+\end{align}
+$$
+
+因此，对于单个训练样本，$$\theta_j$$的更新规则如下:
+
+$$
+\theta_j := \theta_j + \alpha (y^{(i)} - h_\theta (x^{(i)})) x_j^{(i)}
+$$
+
+该规则称为 **LMS更新规则**, 也被称为 **Widrow-Hoff** 学习规则
+
+> **LMS** ： Least Mean Squares， 最小均方
+
+以上是单个训练样本的更新规则，对于训练集，则重复执行更新直到收敛，如下
+
+<BR>
+Repeat until convergence {
+
+$$\qquad \theta_j := \theta_j + \alpha \sum_{i=1}^{m} (y^{(i)} - h_\theta (x^{(i)})) x_j^{(i)}$$ (对于每个j)
+
+}
+
+该方法在每一步都会查看整个训练集中每个例子，因此称为 **批量梯度下降(batch gradient descent)**
+
+对应如下更新方式
+
+$$Loop \{$$ $$\;$$
+
+$$\qquad \;for \; i = 1 \;to\; m, \{$$ $$\;$$
+
+$$\qquad\qquad\theta_j := \theta_j + \alpha (y^{(i)} - h_\theta (x^{(i)})) x_j^{(i)}$$  (对于每个j)
+
+$$\qquad\}$$;
+
+$$\}$$;
+
+每次更新都是对一个训练样本进行更新， 该算法称为 **随机梯度下降 (stochastic gradient descent)**
+
+## 正则方程
+
+In this method, we will minimize $$J$$ by explicitly taking its derivatives with respect to the $$\theta_j$$’s, and setting them to zero
+
+
+# 概率解释
+
+对于回归问题，为什么是线性回归，尤其为什么最小均方损失函数$$J$$是一个合理的选择
