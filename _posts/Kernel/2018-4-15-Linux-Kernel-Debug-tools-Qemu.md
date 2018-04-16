@@ -5,7 +5,7 @@ date: 2018-04-15 21:02:30 +08:00
 category:
     - Linux内核
 keywords: Qemu, Linux, Kernel
-tags: 
+tags:
     - Qemu
     - Linux
 ---
@@ -88,7 +88,7 @@ https://git.qemu.org/?p=qemu.git;a=commit;h=75e5b70e6b5dcc4f2219992d7cffa462aa40
 
 ## 解压busybox
 
-> wxer@wxer:~/dev_ops/Linux_Kernel_DBG$ tar xvf busybox-1.28.2.tar.bz2 
+> wxer@wxer:~/dev_ops/Linux_Kernel_DBG$ tar xvf busybox-1.28.2.tar.bz2
 
 
 ## 编译busybox
@@ -151,9 +151,9 @@ mdev -s
 
 ```
 proc /proc proc defaults 0 0
-tmpfs /tmp tmpfs defaults 0 0 
+tmpfs /tmp tmpfs defaults 0 0
 sysfs /sys sysfs defaults 0 0
-tmpfs /dev tmpfs defaults 0 0 
+tmpfs /dev tmpfs defaults 0 0
 debugfs /sys/kernel/debug debugfs defaults 0 0
 ```
 
@@ -218,6 +218,8 @@ Boot Options --->
 
 
 然后配置memory split为"3G/1G user/kernel/split"， 并打开高端内存，如下图所示
+
+Kernel Features --->
 
 ![memory_split.png](/images/Linux_Kernel/memory_split.png)
 
@@ -290,7 +292,7 @@ On node 0 totalpages: 262144
 random: get_random_bytes called from start_kernel+0xa0/0x3f8 with crng_init=0
 percpu: Embedded 16 pages/cpu @(ptrval) s36300 r8192 d21044 u65536
 pcpu-alloc: s36300 r8192 d21044 u65536 alloc=16*4096
-pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3
 Built 1 zonelists, mobility grouping on.  Total pages: 260608
 Kernel command line: rdinit=/linuxrc console=ttyAMA0 loglevel=8
 log_buf_len individual max cpu contribution: 4096 bytes
@@ -442,11 +444,11 @@ Freeing unused kernel memory: 3072K
 input: ImExPS/2 Generic Explorer Mouse as /devices/platform/smb@4000000/smb@4000000:motherboard/smb@4000000:motherboard:iofpga@7,00000000/10007000.kmi/serio1/input/input2
 
 
-Please press Enter to activate this console. / # 
+Please press Enter to activate this console. / #
 / # ls
 _install  dev       linuxrc   proc      sys       usr
 bin       etc       mnt       sbin      tmp
-/ # 
+/ #
 
 ```
 
