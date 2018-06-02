@@ -2,11 +2,25 @@
 
 <script>
   $(function(){
-      $('article').find('h1,h2,h3,h4,h5').each(function(i) {
+      var headTagNum = [0,0,0,0,0]
+      $('article').find('h1,h2,h3,h4,h5').each(function(i, item) {
           var current = $(this);
           current.attr("id", "title" + i);
           tag = current.prop('tagName').substr(-1);
-          $("#toc_nav").append("<div style='margin-left:"+15*(tag-1)+"px'><a id='link" + i + "' href='#title" +i + "'>" + current.html() + "</a></div>");
+          var tagName  = item.tagName;
+          var tagIndex = parseInt(tagName.charAt(1)) - 1;
+
+          headTagNum[tagIndex] = headTagNum[tagIndex] + 1;
+
+          for (var j = tagIndex + 1; j < headTagNum.length; j++){
+              headTagNum[j] = 0;
+          }
+
+          var tocIndex=headTagNum[0];
+          for (var j = 1; j <= tagIndex; j++){
+              tocIndex = tocIndex + "." + headTagNum[j];
+          }
+          $("#toc_nav").append("<div style='margin-left:"+15*(tag-1)+"px'><a id='link" + i + "' href='#title" + i + "'>" + tocIndex + " " + current.html() + "</a></div>");
       });
   });
 </script>
@@ -14,14 +28,38 @@
 <!--
 <script>
     $(function(){
+        var prevHeadH1 = 0;
         var padding=[10,20,30,40,50];
+        var head=[0,0,0,0,0];
         $('article').find('h1,h2,h3,h4,h5').each(function(index,item){
             $('<a name="c'+index+'"></a>').insertBefore($(this));
             var headerText=$(this).text();
             var tagName=$(this)[0].tagName.toLowerCase();
-            var tagIndex=parseInt(tagName.charAt(1))-1;
+            //var tagIndex=parseInt(tagName.charAt(1))-1;
+            var tagIndex=parseInt(tagName.charAt(1)) - 1;
+            if ('h1'==tagName){
+                if(prevHeadH1 != tagName)
+                {
+                    head[0] = head[0] + 1;
+                    head[1] = 0;
+                    head[2] = 0;
+                    head[3] = 0;
+                    head[4] = 0;
+                }
+            }
+            else {
+                head[tagIndex] = head[tagIndex] + 1;
+            }
+            var toc_idx =  head[0];
+            if ('h2' == tagName)
+            {
+                toc_idx = toc_idx + "." + head[1];
+            }
+            else if ('h3' == tagName){
+                toc_idx = toc_idx + "." + head[1] + "." + head[2];
+            }
             //设置不同等级header的排列及缩进样式
-            $('#toc_nav').append($('<a href="#c'+index+'" style="padding-left:'+padding[tagIndex]+'px;display:block;">'+headerText+'</a>'));
+            $('#toc_nav').append($('<a href="#c'+index+'" style="padding-left:'+padding[tagIndex]+'px;display:block;">'+toc_idx + " "+headerText+'</a>'));
 
         });
     });
