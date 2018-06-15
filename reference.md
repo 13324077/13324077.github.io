@@ -73,6 +73,9 @@ permalink: /reference/
 
 1. [Digital Image Processing](https://web.stanford.edu/class/ee368/handouts.html)
 
+# 编译器
+1. [Writing Your Own Toy Compiler Using Flex, Bison and LLVM](https://gnuu.org/2009/09/18/writing-your-own-toy-compiler/)
+
 # WEB相关
 
 ## Mathjax
