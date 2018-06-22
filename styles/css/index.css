@@ -489,7 +489,7 @@ blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
   background-color: #eae6f3;
-  border-left: 4px solid #ff9800;
+  border-left: 4px solid #238d69;
 }
 blockquote p {
   color: #1f1f1f;
@@ -6428,7 +6428,7 @@ hr {
 }
 .docs-content {
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
 }
 .docs-section + .docs-section {
   padding-top: 40px;
@@ -6492,7 +6492,7 @@ hr {
 }
 .docs-sidebar {
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
 }
 @media (min-width: 992px) {
   .sidebar {
