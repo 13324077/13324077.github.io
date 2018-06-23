@@ -6,7 +6,7 @@
 !function ($) {
 
   $(function () {
-      
+
 		orderTheLeftNavigations();
 
     function orderTheLeftNavigations(){
@@ -14,7 +14,7 @@
 	    $('#navigation .sidenav ul').addClass("nav");
 	    $("#markdown-toc").remove();
 
-      // 添加Bootstrap表格样式 table-hover 
+      // 添加Bootstrap表格样式 table-hover
       $(".docs-content table").addClass("table table-hover");
   	}
 
@@ -42,15 +42,18 @@
     function resetHeadersStyles(){
       resetHeaderItemStyles($(".docs-content h1"));
       resetHeaderItemStyles($(".docs-content h2"));
+      resetHeaderItemStyles($(".docs-content h3"));
     }
 
     function resetHeaderItemStyles(headers){
       if(headers != undefined && headers.length > 0){
         for(var i=0; i< headers.length;i++){
-          
+
           var header = headers[i];
-          $(header).html($(header).html() + '<span class="anchor-target" id="' + header.id + '"></span>' +
-            '<a href="#' + header.id + '" name="' + header.id + '" class="anchor glyphicon glyphicon-link"></a>');
+           $(header).html($(header).html() + '<span class="anchor-target" id="' + header.id + '"></span>' +
+            '<a href="#' + header.id + '" name="' + header.id + '"></a>');
+		   /*$(header).html($(header).html() + '<span class="anchor-target" id="' + header.id + '"></span>' +
+            '<a href="#' + header.id + '" name="' + header.id + '" class="anchor glyphicon glyphicon-link"></a>');*/
           $(header).removeAttr('id');
         }
       }

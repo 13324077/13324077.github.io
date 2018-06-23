@@ -378,15 +378,15 @@ h6 .small {
 }
 h1,
 .h1 {
-  font-size: 38px;
+  font-size: 28px;
 }
 h2,
 .h2 {
-  font-size: 31px;
+  font-size: 26px;
 }
 h3,
 .h3 {
-  font-size: 24px;
+  font-size: 22px;
 }
 h4,
 .h4 {
@@ -7139,32 +7139,88 @@ td.visible-print {
 }
 
 .post-content h1 {
-	color: #FF0033;
+/*
+    background: #2B6695;
+    color: #FFFFFF;
+    font-size: 24px;
+    padding-left: 0px;
+    margin-left: 0px;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 0 0 1px #2B6695, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+    padding: 10px 0 10px 10px;
+    overflow:hidden
+*/
+    background: #2B6695;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 0 0 1px #2B6695, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+    color: #FFFFFF;
+    /*font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;*/
+    font-size: 24px;
+    /*font-weight: bold;*/
+    height: 48px;
+    line-height: 48px;
+    margin: 15px 0 !important;
+    padding: 5px 0 5px 10px;
+    /*text-shadow: 2px 2px 3px #222222;*/
 }
 
 .post-content h2 {
-	color: #CC3333;
+    /*
+    background: #73af75;
+    color: #FFFFFF;
+    font-size: 22px;
+    padding-left: 0px;
+    margin-left: 0px;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 0 0 1px #73af75, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+    padding: 10px 0 10px 10px;
+    overflow:hidden
+    */
+    background: #73af75;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 0 0 1px #73af75, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+    color: #FFFFFF;
+    /*font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;*/
+    font-size: 22px;
+    /*font-weight: bold;*/
+    height: 48px;
+    line-height: 48px;
+    margin: 15px 0 !important;
+    padding: 5px 0 5px 10px;
+    /*text-shadow: 2px 2px 3px #222222;*/
 }
 
 .post-content h3 {
+    /*
+    background: #efecec;
 	color: #FF6600;
-}
-
-.post-content h1 {
-  font-size: 32px;
-}
-.post-content h2 {
-  font-size: 28px;
-}
-.post-content h3 {
-  font-size: 24px;
+    font-size: 20px;
+    padding-left: 0px;
+    margin-left: 0px;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 0 0 1px #efecec, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+    padding: 10px 0 10px 10px;
+    overflow:hidden
+    */
+    background: #efecec;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 0 0 1px #efecec, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+    color: #FF6600;
+    /*font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;*/
+    font-size: 20px;
+    /*font-weight: bold;*/
+    height: 48px;
+    line-height: 48px;
+    margin: 15px 0 !important;
+    padding: 5px 0 5px 10px;
+    /*text-shadow: 2px 2px 3px #222222;*/
 }
 
 .post-content h4 {
-  font-size: 20px;
+  font-size: 18px;
 }
 .post-content h5 {
-  font-size: 18px;
+  font-size: 16px;
 }
 .post-content h6 {
   font-size: 16px;
