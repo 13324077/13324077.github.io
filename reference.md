@@ -12,6 +12,10 @@ permalink: /reference/
 
 2. [CSC 321:Intro to Neural Networks and Machine Learning](http://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/)
 
+3. [machine learning mastery](https://machinelearningmastery.com/start-here/)
+
+4. [Learning From Data](https://work.caltech.edu/telecourse.html)
+
 # 计算机视觉
 
 1. [计算机视觉:基础与应用](http://vision.stanford.edu/teaching/cs131_fall1718/)
@@ -21,6 +25,8 @@ permalink: /reference/
 3. [CSC2548: Machine Learning in Computer Vision](http://www.cs.utoronto.ca/~fidler/teaching/2018/CSC2548.html)
 
 4. [CS231A: Computer Vision, From 3D Reconstruction to Recognition](http://web.stanford.edu/class/cs231a/)
+
+5. [Programming Computer Vision with Python](http://programmingcomputervision.com/)
 
 # 人工智能:原理与技术
 
@@ -68,6 +74,7 @@ permalink: /reference/
 
 2. [CS224n: Natural Language Processing with Deep Learning](http://web.stanford.edu/class/cs224n/)
 
+3. [awesome-deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning)
 
 # 数字图像处理
 
