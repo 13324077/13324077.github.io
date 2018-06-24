@@ -76,6 +76,14 @@ permalink: /reference/
 
 3. [awesome-deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning)
 
+4. [NLP Programming Tutorial](https://github.com/neubig/nlptutorial)
+
+5. [Neural Networks for NLP Code Examples](https://github.com/neubig/nn4nlp-code)
+
+6. [自己动手做聊天机器人](http://www.shareditor.com/bloglistbytag/?tagname=%E8%87%AA%E5%B7%B1%E5%8A%A8%E6%89%8B%E5%81%9A%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA)
+
+7. [自己动手做聊天机器人教程](https://github.com/warmheartli/ChatBotCourse)
+
 # 数字图像处理
 
 1. [Digital Image Processing](https://web.stanford.edu/class/ee368/handouts.html)
