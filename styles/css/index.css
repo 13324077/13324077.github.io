@@ -7158,7 +7158,7 @@ td.visible-print {
     font-size: 24px;
     /*font-weight: bold;*/
     height: 48px;
-    line-height: 48px;
+    line-height: 42px;
     margin: 15px 0 !important;
     padding: 5px 0 5px 10px;
     /*text-shadow: 2px 2px 3px #222222;*/
@@ -7184,7 +7184,7 @@ td.visible-print {
     font-size: 22px;
     /*font-weight: bold;*/
     height: 48px;
-    line-height: 48px;
+    line-height: 42px;
     margin: 15px 0 !important;
     padding: 5px 0 5px 10px;
     /*text-shadow: 2px 2px 3px #222222;*/
@@ -7210,7 +7210,7 @@ td.visible-print {
     font-size: 20px;
     /*font-weight: bold;*/
     height: 48px;
-    line-height: 48px;
+    line-height: 42px;
     margin: 15px 0 !important;
     padding: 5px 0 5px 10px;
     /*text-shadow: 2px 2px 3px #222222;*/
