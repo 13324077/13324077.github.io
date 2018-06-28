@@ -29,10 +29,10 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 # 实现
 
-```CPP
+```cpp
 /*
 You are given two non-empty linked lists representing two non-negative integers.
-The digits are stored in reverse order and each of their nodes contain a single digit. 
+The digits are stored in reverse order and each of their nodes contain a single digit.
 Add the two numbers and return it as a linked list.
 
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.
@@ -61,7 +61,7 @@ public:
 		int b	  = 0;
 		int carry = 0;
 		int sum   = 0;
-	
+
 		ListNode *h  = NULL;
 		ListNode **t = &h;
 
@@ -159,7 +159,7 @@ int main()
 
 	std::cout << "l1 + l2 result:";
 	printList(h);
-	
+
 	delete l1;
 	delete l2;
 	delete h;
