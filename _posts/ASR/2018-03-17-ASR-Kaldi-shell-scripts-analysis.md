@@ -23,6 +23,29 @@ tags:
 
 以下以 **egs/yesno/s5** 中的脚本为例，对整个语音识别系统的过程进行说明
 
+# path.sh脚本分析
+
+```shell
+export KALDI_ROOT=`pwd`/../../..
+[ -f $KALDI_ROOT/tools/env.sh ] && . $KALDI_ROOT/tools/env.sh
+export PATH=$PWD/utils/:$KALDI_ROOT/tools/openfst/bin:$PWD:$PATH
+[ ! -f $KALDI_ROOT/tools/config/common_path.sh ] && echo >&2 "The standard file $KALDI_ROOT/tools/config/common_path.sh is not present -> Exit!" && exit 1
+. $KALDI_ROOT/tools/config/common_path.sh
+export LC_ALL=C
+```
+
+- 添加kaldi主目录路径
+
+- 如果存在env.sh文件，则执行该脚本
+
+- 添加openfst执行文件等目录路径
+
+- 如果不存在common_path.sh文件，则打印报错，退出执行
+
+- 若存在，则执行该脚本文件
+
+- 按照C排序法则
+
 # 语料库下载
 
 下载语料库的脚本如下
@@ -49,6 +72,10 @@ fi
 **waves_yesno** 目录中是 **.wav** 语音文件
 
 ![kaldi_yesno_wav_files](/images/kaldi/kaldi_yesno_wav_files.png)
+
+总共60个wav文件，采样率都是8k，
+
+wav文件里每一个单词要么”ken”要么”lo”(“yes”和”no”)的发音，所以每个文件有8个发音，文件命名中的1代表yes发音，0代表no的发音。
 
 # 准备数据
 
@@ -82,18 +109,21 @@ echo "Preparing train and test data"
 
 train_base_name=train_yesno
 test_base_name=test_yesno
-waves_dir=$1
+waves_dir=$1  # 传入的文件目录赋值给waves_dir变量
 
-ls -1 $waves_dir > data/local/waves_all.list
+ls -1 $waves_dir > data/local/waves_all.list  # 将waves_dir目录所有文件名写到waves_all.list文件中
 
 cd data/local
 
+# 将waves_all.list中的60个wav文件名,分成两拨，各30个，分别记录在waves.test和waves.train文件中
 ../../local/create_yesno_waves_test_train.pl waves_all.list waves.test waves.train
 
 ../../local/create_yesno_wav_scp.pl ${waves_dir} waves.test > ${test_base_name}_wav.scp
 
 ../../local/create_yesno_wav_scp.pl ${waves_dir} waves.train > ${train_base_name}_wav.scp
 
+# 生成train_yesno.txt和test_yesno.txt
+# 这两个文件存放的是发音id和对应的文本．
 ../../local/create_yesno_txt.pl waves.test > ${test_base_name}.txt
 
 ../../local/create_yesno_txt.pl waves.train > ${train_base_name}.txt
