@@ -1,7 +1,7 @@
 ---
 layout: post
 title: C++介绍
-date: 2018-07-01 10:50：01 +08:00
+date: 2018-07-01 10:50:01 +08:00
 category:
     - C++
 keywords: C++
