@@ -42,6 +42,8 @@ permalink: /reference/
 
 1. [AUTOMATIC SPEECH RECOGNITION (ASR)](http://www.inf.ed.ac.uk/teaching/courses/asr/)
 
+2. [语音识别（一）——概述](http://antkillerfarm.github.io/graphics/2018/04/16/speech.html)
+
 # 大数据
 
 1. [CS246 Mining Massive Data Sets (Winter 2018)](http://web.stanford.edu/class/cs246/)
