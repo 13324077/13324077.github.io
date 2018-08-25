@@ -38,11 +38,15 @@ permalink: /reference/
 
 2. [CS 294: Deep Reinforcement Learning](http://rll.berkeley.edu/deeprlcourse/)
 
-# 语音识别
+# 语音识别与处理
 
 1. [AUTOMATIC SPEECH RECOGNITION (ASR)](http://www.inf.ed.ac.uk/teaching/courses/asr/)
 
 2. [语音识别（一）——概述](http://antkillerfarm.github.io/graphics/2018/04/16/speech.html)
+
+3. [hand-book-of-asr-processing](https://legacy.gitbook.com/@shichaog1)
+
+4. [WebRTC-audio-processing](https://github.com/shichaog/WebRTC-audio-processing)
 
 # 大数据
 
@@ -105,6 +109,9 @@ permalink: /reference/
 
 1.[fontawesome官网](http://fontawesome.dashgame.com/)
 
+## 服务器编程
+
+1. [服务器端编程心得（七）——开源一款即时通讯软件的源码](https://www.cnblogs.com/balloonwj/p/9093560.html)
 
 # 常用Python库
 
