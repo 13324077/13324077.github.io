@@ -16,6 +16,12 @@ permalink: /reference/
 
 4. [Learning From Data](https://work.caltech.edu/telecourse.html)
 
+5. [100-Days-Of-ML-Code](https://github.com/Avik-Jain/100-Days-Of-ML-Code)
+
+6. [Learn_Machine_Learning_in_3_Months](https://github.com/llSourcell/Learn_Machine_Learning_in_3_Months)
+
+7. [Learn_Deep_Learning_in_6_Weeks](https://github.com/llSourcell/Learn_Deep_Learning_in_6_Weeks)
+
 # 计算机视觉
 
 1. [计算机视觉:基础与应用](http://vision.stanford.edu/teaching/cs131_fall1718/)
