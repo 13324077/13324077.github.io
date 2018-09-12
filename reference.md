@@ -103,6 +103,20 @@ permalink: /reference/
 # 编译器
 1. [Writing Your Own Toy Compiler Using Flex, Bison and LLVM](https://gnuu.org/2009/09/18/writing-your-own-toy-compiler/)
 
+# 待学习课程
+
+1. [Operating System Engineering](https://pdos.csail.mit.edu/6.828/2018/schedule.html)
+
+2. [Database Systems](http://db.csail.mit.edu/6.830/syllabus.php)
+
+3. [Introduction to Databases](http://web.stanford.edu/class/cs145/)
+
+4. [compiler](http://web.stanford.edu/class/cs143/)
+
+5. [CS131 Computer Vision: Foundations and Applications](http://vision.stanford.edu/teaching/cs131_fall1819/index.html)
+
+
+
 # WEB相关
 
 ## Mathjax
