@@ -216,3 +216,5 @@ compilation terminated.
 3. [What is the difference between gcc -ggdb and gcc -g](https://stackoverflow.com/questions/668962/what-is-the-difference-between-gcc-ggdb-and-gcc-g)
 
 4. [GCC 中的编译器堆栈保护技术](https://www.cnblogs.com/napoleon_liu/archive/2011/02/14/1953983.html)
+
+5. [gdb debug 信息 stabs 格式](https://blog.csdn.net/killmice/article/details/38226983)
