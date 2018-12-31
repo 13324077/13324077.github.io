@@ -54,6 +54,8 @@ permalink: /reference/
 
 4. [WebRTC-audio-processing](https://github.com/shichaog/WebRTC-audio-processing)
 
+5. [Speech Processing](http://www.speech.zone/courses/speech-processing/)
+
 # 大数据
 
 1. [CS246 Mining Massive Data Sets (Winter 2018)](http://web.stanford.edu/class/cs246/)

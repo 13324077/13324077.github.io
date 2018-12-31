@@ -46,6 +46,22 @@ extras/check_dependencies.sh: all OK.
 
 然后重新检查kaldi依赖的软件是否都已安装
 
+若出现如下提示
+
+```
+extras/check_dependencies.sh: sox is not installed.
+extras/check_dependencies.sh: we recommend that you run (our best guess):
+ sudo apt-get install  sox
+```
+
+则表示需要安装sox工具
+
+**sox简介**
+
+sox是一个跨平台(Windows, Linux, MacOS X等)的命令行工具，用于在对各种计算机音频文件格式进行转换。同时也可以对这些声音文件应用各种特效，且可以播放和录制声音
+
+[sox官网](http://sox.sourceforge.net/)
+
 接着返回上一级目录，然后进入 **src目录**， 运行如下命令编译
 
 > $ ./configure \-\-shared \-\-openblas-root=../tools/OpenBLAS/install
